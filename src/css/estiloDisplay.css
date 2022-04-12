@@ -1,0 +1,22 @@
+.titulo{
+   color: red;
+}
+div{
+   /* Se puede modificar su tamaño, es un block con comportamiento de inline */
+   width: 150px;
+   height: 150px;
+   margin: 20px;
+   background: yellow;
+   display: inline-block;
+   
+}
+
+b{ 
+   /* NO se puede cambiar el tamaño, es un inline */
+   width: 150px;
+   height: 150px;
+   background: yellow;
+}
+.div-overflow{
+   background: #fff;
+}

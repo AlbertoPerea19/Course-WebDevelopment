@@ -1,0 +1,41 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+.contact-form{
+   /* medidas fijas */
+   font-size: 50px;
+}
+.contact-form__h2{
+   /* medidas relativas */
+   /* font-size: 2em; */
+   /* em= al valor de la caja contenedora (arriba) */
+   background-color: rgb(241, 123, 123);
+   width: 50vw;
+   height: 20vh;
+   /* vw,vh medidas relativas, siendo lo equivalente a la medida de la pantalla */
+}
+.contact-article__h3{
+   font-size: 2em;
+   font-family: Georgia; 
+   line-height: 2;
+   font-weight: normal;
+   font-stretch: normal;
+   font-variant: small-caps;
+   color: red;
+}
+h2{
+   background-color: red;
+   display: inline-block;
+   padding: 10px 50px;
+   height: 100px;
+   width: 300px;
+   box-sizing: border-box;
+   text-align: center;
+   margin: 20px 10px;
+   border-radius: 10px;
+   border: 5px solid #a22;
+   box-shadow: 30px 20px 10px 10px #000;
+   text-shadow: 2px 2px 7px #fff;
+   transform: rotate(10deg);
+}
